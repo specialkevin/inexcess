@@ -1,4 +1,4 @@
-inexcess: A backup utility that utilizes GridFS as the data store.
+inexcess: A New Sensation for Backups.
 ========
 
 **inexcess** is a python backup utility that stores all backup files and revisions in GridFS.
