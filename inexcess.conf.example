@@ -1,0 +1,10 @@
+[mongo]
+url: example.com
+port: 12345
+db: inexcess
+user: mongo_user
+pass: SuperAwesomeMongoPassword
+
+[paths]
+path1: /home/blah/example.txt
+path2: /home/blah/tie/helloworld.txt
