@@ -1,4 +1,5 @@
 import os
+import itertools
 
 import inexcess
 from inexcess import mongo
