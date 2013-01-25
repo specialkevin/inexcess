@@ -9,14 +9,14 @@ setup(
     description = ("A backup utility using GridFS."),
     license = "BSD",
     keywords = "backup gridfs",
-    url = "http://packages.python.org/inexcess",
+    url = "https://github.com/specialkevin/inexcess",
     packages=['inexcess',],
-    scripts=['bin/wander'],
+    scripts=['bin/inexcess'],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Topic :: Utilities",
         "License :: OSI Approved :: BSD License",
     ],
 
-    install_requires = [],
+    install_requires = ['pymongo'],
 )
