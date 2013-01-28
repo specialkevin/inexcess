@@ -20,5 +20,5 @@ def uploadFile(filepath, collection):
     database = connect()
     filesystem = gridfs.GridFS(database, collection=collection)
     with open(filepath) as backup_file:
-        oid = filesystem.put(backup_file)
+        oid = filesystem.put(backup_file, filename=backup_file)
 
