@@ -13,8 +13,24 @@ REQUIREMENTS
 FEATURES
 ----------
 
+* Backup up specified local directories into GridFS
 
-EXAMPLES
---------
+Installation
+------------
 
+    pip install git+git://github.com/specialkevin/inexcess.git
 
+Setup
+-----
+
+Edit the configuration file (/etc/inexcess.conf.example) to suit your needs and then copy to remove the example.
+
+    cp /etc/inexcess.conf.example /etc/inexcess.conf
+
+Future Features
+---------------
+
+* Revisioning
+* Limiting Number of Backups
+* Backup Remote Locations via Fabric
+* Restore files instead of using Mongo tools (i.e. mongofiles)

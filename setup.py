@@ -18,5 +18,9 @@ setup(
         "License :: OSI Approved :: BSD License",
     ],
 
+    data_files=[(
+        "/etc/","inexcess.conf.example"
+    )]
+
     install_requires = ['pymongo'],
 )
